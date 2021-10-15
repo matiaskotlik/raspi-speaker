@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# link to this file from ~/.config/openbox/autostart
+
+. /home/pi/matias-speaker/reset.sh & # reset wallpaper/colors/etc
+unclutter -idle 1 & # hide mouse
+conky & # conky
+compton & # compositor
+tilda -t 100 & # terminal
+. /home/pi/matias-speaker/idle-watcher.sh & # spotify idle watcher
