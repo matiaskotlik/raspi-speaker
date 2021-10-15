@@ -2,6 +2,8 @@
 
 Spotify speaker + audio visualizer, with background and color scheme that matches the currently playing album art, running on a raspberry pi.
 
+https://user-images.githubusercontent.com/20362627/137560865-0e242ffb-dafa-426e-aff7-dd9eda66cec3.mp4
+
 Uses raspotify, pywal, cava, conky, openbox, and tilda.
 
 - raspotify is for spotify-related things and playing music
